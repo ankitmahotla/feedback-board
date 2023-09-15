@@ -154,12 +154,10 @@ export default function Board() {
   return (
     <main className="bg-white md:max-w-2xl mx-auto md:shadow-lg md:rounded-lg md:mt-4 md:mb-8 overflow-hidden">
       <div className="bg-gradient-to-r from-cyan-400 to-blue-400 p-8">
-        <h1 className="font-bold text-xl">
-          {session?.user?.name}'s Feedback Board
-        </h1>
-        <p className="text-opacity-90 text-slate-700">
+        <h1 className="font-bold text-xl">Your Feedback Board</h1>
+        {/* <p className="text-opacity-90 text-slate-700">
           Help me decide what should I build next or how can I improve.
-        </p>
+        </p> */}
       </div>
       <div className="bg-gray-100 px-8 py-4 flex items-center border-bottom">
         <div className="grow flex items-center gap-4 text-gray-400">
